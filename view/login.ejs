@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>LoginSignup</title>
+</head>
+
+<body>
+    <div class="main">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">BlogApp</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/logout">Logout</a></li>
+                    <li><a href="/register">Register</a></li>
+                    <!-- <li><a href="/blog">Post Blog</a></li> -->
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <form action="/login" method="post" class="login">
+                <h2>Login</h2>
+                <input class="emi" type="text" name="email" placeholder="enter your email">
+                <input class="ps" type="password" name="password" placeholder="enter your password">
+                <input class="btn" type="submit" value="Login">
+                <div class="media">
+                    <a href="/"><img class="image" src="./images/linkedin.png" alt="" srcset=""></a>
+                    <a href="/"><img class="image" src="./images/google.png" alt="" srcset=""></a>
+                    <a href="/"><img class="image" src="./images/facebook.png" alt="" srcset=""></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

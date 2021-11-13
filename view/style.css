@@ -1,0 +1,314 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-image: url('./images/joanna-kosinska-I3adKpDNAjM-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        background-size: cover;
+        overflow: hidden;
+    }
+
+
+    
+    .login {
+        /* height: 400px; */
+        background: rgba(250, 245, 245, 0.425);
+        margin: 0 650px 0 650px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.575);
+        border-radius: 30px 10px;
+        margin-top: 160px;
+    }
+    
+    .signup {
+        background: rgba(250, 245, 245, 0.425);
+        margin: 0 650px 0 650px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgba(0, 0, 0, 0.575);
+        border-radius: 30px 10px;
+    }
+    
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Zen Antique', serif;
+        color: black;
+        text-decoration: underline; 
+    }
+    
+    .btn {
+        width: 250px;
+        height: 40px;
+        text-align: center;
+        margin-bottom: 30px;
+        border: 1px solid black;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .ps {
+        width: 400px;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+        border: 1px solid black;
+        font-size: medium;
+        border-radius: 25px;
+        font-family: 'Zen Antique', serif;
+        box-shadow: 1px 3px 7px 2px #bbbaba;
+    }
+    
+    .em {
+        margin-top: 5px;
+        width: 400px;
+        font-size: medium;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-family: 'Zen Antique', serif;
+        box-shadow: 1px 3px 7px 2px #bbbaba;
+    }
+    
+    .emi {
+        margin-top: 60px;
+        width: 400px;
+        font-size: medium;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-family: 'Zen Antique', serif;
+        box-shadow: 1px 3px 7px 2px #bbbaba;
+    }
+    
+    .nm {
+        margin-top: 60px;
+        width: 400px;
+        font-size: medium;
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 50px;
+        border: 1px solid black;
+        border-radius: 25px;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .fs {
+        margin-left: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+        color: red;
+        /* font-size: 25px; */
+        font-weight: bold;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .sp {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .image {
+        width: 40px;
+        text-align: center;
+    }
+    
+    .media {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 70px;
+    }
+    /* Blog page css */
+    
+    .card {
+        display: flex;
+        gap: 30px;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .About img {
+        margin: 20px 40px;
+        width: 20vw;
+        height: 35vh;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    
+    h3 {
+        /* margin: 0 0 0 180px; */
+        font-weight: bold;
+        font-family: 'Zen Antique', serif;
+        color: black;
+        font-size: 30px;
+        border-bottom: 5px red;
+        text-align: center;
+    }
+    
+    .About {
+        width: 30vw;
+        border: 1px solid rgba(0, 0, 0, 0.349);
+        height: 47vw;
+        background: rgba(227, 230, 225, 0.4);
+        margin: 0 0 0 20px;
+        border-radius: 25px 40px;
+        box-shadow: 1px 3px 7px 2px #888888;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    p {
+        padding: 25px 30px 0 30px;
+        font-weight: bold;
+        font-family: 'Zen Antique', serif;
+        font-size: 20px;
+        color: black;
+        font-family: 'Zen Antique', serif;
+        border-bottom: 1px red;
+    }
+    
+    .postdata {
+        /* background-color: rgba(0, 0, 255, 0.3); */
+        /* border: 1px solid rgba(255, 0, 0, 0.164); */
+        text-align: center;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-left: 200px;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .auther {
+        padding: 15px;
+        font-size: medium;
+        width: 550px;
+        margin: 20px 330px;
+        box-shadow: 1px 3px 7px 2px #bbbaba;
+        border: 0;
+        border-radius: 15px 15px;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .body {
+        padding: 15px;
+        font-size: medium;
+        width: 550px;
+        margin: 20px 330px;
+        box-shadow: 1px 3px 7px 2px #bbbaba;
+        border: 0;
+        border-radius: 15px 15px;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .description {
+        padding: 15px;
+        font-size: medium;
+        width: 550px;
+        margin: 20px 330px;
+        box-shadow: 1px 3px 7px 2px #bbbaba;
+        border: 0;
+        border-radius: 15px 15px;
+        font-family: 'Zen Antique', serif;
+    }
+    
+    .btn:hover {
+        background: #000;
+        color: white;
+        width: 450px;
+        border-radius: 15px 15px;
+        transition: all 0.5s;
+    }
+    
+    .btn:active {
+        background: green;
+    }
+
+    .allblog{
+        padding-top: 30px;
+        padding-left: 140px;
+        padding-bottom: 40px;
+        display: flex;
+        gap: 40px;
+        font-family: 'Zen Antique', serif; 
+        overflow-x: scroll;
+    }
+
+    .allblog::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .mainblog{
+        width: 25vw;
+        border: 1px solid rgba(0, 0, 0, 0.349);
+        height: 43vw;
+        background: rgba(227, 230, 225, 0.4);
+        margin: 0 0 0 20px;
+        border-radius: 25px 40px;
+        box-shadow: 1px 3px 7px 2px #888888;
+        font-family: 'Zen Antique', serif;
+        transition: 0.4s all;
+        position: relative;
+    }
+
+    .mainblog img {
+        margin: 20px 40px;
+        width: 20vw;
+        height: 35vh;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+    .likes{
+        width: 30px;
+    }
+
+
+    .like-dislike{
+        position: absolute;
+        bottom: 0;
+        /* border-bottom: 1px solid black; */
+        width: 25vw;
+        /* margin-top: 30px; */
+        /* width: 80px; */
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .image-again{
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 0% !important;
+        bottom: 0%;
+    }
+
+    .img-heart{
+        width: 55px !important;
+        position: absolute;
+        right: -20px;
+    }
+
+    .img-heart-1{
+        position: absolute;
+        right: 60px;
+    }
+
+    .like{
+        font-size: 40x !important;
+    }
+
+    .main-like{
+        display: flex;
+    }
+
+    .mainblog:hover{
+        transform: scale(1.05);
+    }
